@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <>
       <header>
         <h1
           style={{
@@ -26,6 +27,7 @@ function App() {
       </header>
       <RecipeList recipes={recipes} setRecipes={setRecipes} />
       <RecipeCreate recipes={recipes} setRecipes={setRecipes} />
+      </>
     </div>
   );
 }

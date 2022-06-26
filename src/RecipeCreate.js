@@ -19,7 +19,6 @@ function RecipeCreate({ recipes, setRecipes }) {
   function handleSubmit(event) {
     // adds new recipe to the master recipe state and resets state to its original state once the data has been passed to the master recipe state
     event.preventDefault();
-    const { target } = event;
     setRecipes([...recipes, NewRecipe]);
     setNewRecipe({
       name: "",
