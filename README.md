@@ -12,7 +12,7 @@ Save your favorite recipes with this simple CRUD app.
 clone this repository into your computer, run npm i then npm start. 
   
 ### Screenshots
-![main screenshot](Assets/recipe-crud.png)
+![main screenshot](assets/recipe-crud.png)
 
 
 ## Built With
